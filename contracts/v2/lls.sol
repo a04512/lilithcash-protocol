@@ -4,7 +4,7 @@ import './Operator.sol';
 import './ERC20Burnable.sol';
 
 contract Share is ERC20Burnable, Operator {
-    constructor() public ERC20('BAS', 'BAS') {
+    constructor() public ERC20('LLS', 'LLS') {
         // Mints 1 Basis Share to contract creator for initial Uniswap oracle deployment.
         // Will be burned after oracle deployment
         _mint(msg.sender, 1 * 10**18);
