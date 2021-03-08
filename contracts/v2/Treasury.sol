@@ -1,17 +1,17 @@
 pragma solidity ^0.6.0;
 
-import '../math.sol';
-import '../IERC20.sol';
-import '../SafeERC20.sol';
+import './math.sol';
+import './IERC20.sol';
+import './SafeERC20.sol';
 
-import '../interface/IBoardroom.sol';
-import '../interface/IBasisAsset.sol';
-import '../lib/Babylonian.sol';
-import '../lib/FixedPoint.sol';
-import '../lib/Safe112.sol';
-import '../owner/Operator.sol';
-import '../utils/Epoch.sol';
-import '../utils/ContractGuard.sol';
+import './IBoardroom.sol';
+import './IBasisAsset.sol';
+import './Babylonian.sol';
+import './FixedPoint.sol';
+import './Safe112.sol';
+import './Operator.sol';
+import './Epoch.sol';
+import './ContractGuard.sol';
 
 /**
  * @title  LLC Treasury contract
