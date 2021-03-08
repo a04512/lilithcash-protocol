@@ -1,13 +1,13 @@
 pragma solidity ^0.6.0;
 //pragma experimental ABIEncoderV2;
 
-import '../IERC20.sol';
-import '../SafeERC20.sol';
+import './IERC20.sol';
+import './SafeERC20.sol';
 
-import '../lib/Safe112.sol';
-import '../owner/Operator.sol';
-import '../utils/ContractGuard.sol';
-import '../interface/IBasisAsset.sol';
+import './Safe112.sol';
+import './Operator.sol';
+import './ContractGuard.sol';
+import './IBasisAsset.sol';
 
 contract ShareWrapper {
     using SafeMath for uint256;
