@@ -1,8 +1,8 @@
-    pragma solidity ^0.6.0;
+pragma solidity ^0.6.0;
 
-import '../SafeMath.sol';
+import './SafeMath.sol';
 
-import '../owner/Operator.sol';
+import './Operator.sol';
 
 contract Epoch is Operator {
     using SafeMath for uint256;
