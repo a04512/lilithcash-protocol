@@ -1,7 +1,7 @@
 pragma solidity ^0.6.0;
 
-import "../ERC20Burnable.sol";
-import '../owner/Operator.sol';
+import "./ERC20Burnable.sol";
+import './Operator.sol';
 
 
 contract LLC is ERC20Burnable, Operator {
