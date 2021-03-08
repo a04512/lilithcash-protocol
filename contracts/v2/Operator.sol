@@ -1,6 +1,6 @@
 pragma solidity ^0.6.0;
 
-import '../Context.sol';
+import './Context.sol';
 import './Ownable.sol';
 
 contract Operator is Context, Ownable {
