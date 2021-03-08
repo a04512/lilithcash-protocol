@@ -1,12 +1,12 @@
 pragma solidity ^0.6.0;
 
-import '../math.sol';
-import '../SafeMath.sol';
-import '../IERC20.sol';
-import '../Address.sol';
-import '../SafeERC20.sol';
-import '../interface/IRewardDistributionRecipient.sol';
-import '../LPTokenWrapper.sol';
+import './math.sol';
+import './SafeMath.sol';
+import './IERC20.sol';
+import './Address.sol';
+import './SafeERC20.sol';
+import './IRewardDistributionRecipient.sol';
+import './LPTokenWrapper.sol';
 
 contract LlcUsdtLPTokenLlsPool is
     LPTokenWrapper,
