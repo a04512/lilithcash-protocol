@@ -1,6 +1,6 @@
 pragma solidity ^0.6.2;
 
-import '../owner/Ownable.sol';
+import './Ownable.sol';
 
 abstract contract IRewardDistributionRecipient is Ownable {
     address public rewardDistribution;
